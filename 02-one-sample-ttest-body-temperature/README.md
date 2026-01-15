@@ -6,6 +6,13 @@ Recent research has questioned whether this value accurately represents modern p
 The objective of this analysis is to statistically evaluate whether the true mean body temperature
 of a sample population differs from the historical reference value of 98.6°F.
 
+## Data Description
+The analysis uses the `normtemp` dataset, which contains body temperature
+measurements from adult male and female subjects. The primary variable of
+interest is `BodyTemp`, representing measured body temperature in degrees
+Fahrenheit. The dataset consists of 130 observations and is treated as a
+sample from a larger population.
+
 ## Approach
 A one-sample t-test was performed to compare the sample mean body temperature to the hypothesized
 population mean of 98.6°F. Prior to inference, distributional assumptions were assessed using
