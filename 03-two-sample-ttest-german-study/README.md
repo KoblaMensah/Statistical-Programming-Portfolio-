@@ -1,5 +1,3 @@
-# Two-Sample t-Test: Teaching Method Effect on Grammar Score Improvement
-
 ## Background
 An educational study was conducted to evaluate the effectiveness of a new teaching method compared with a standard instructional approach.
 Students were assigned to either a control group (standard teaching) or a treatment group (new teaching method).
