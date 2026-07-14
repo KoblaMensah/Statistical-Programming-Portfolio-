@@ -1,0 +1,42 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: statdata.fitness
+Observations:  31
+Variables:     2
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  age        Num      8          
+  2  weight     Num      8          
+
+-------------------------------------------------------------------------------
+
+
+  Obs  age  weight
+-----  ---  ------
+    1   57   168.5
+    2   54     156
+    3   50   158.2
+    4   54   174.3
+    5   51   173.4
+    6   57     168
+    7   49   165.5
+    8   52   155.5
+    9   51   168.6
+   10   52     160
+
+... 21 more observations (showing 10 of 31)
+
+                                    Table 1. Baseline Summary Statistics for WEIGHT
+
+                                                  The MEANS Procedure
+
+ Variable        N     Minimum     Maximum           Mean      Median     Std Dev   Lower Quartile   Upper Quartile   Std Error
+ ------------------------------------------------------------------------------------------------------------------------------
+ weight         31      152.00      175.80         163.84      163.00        6.61           158.20           168.60        1.19
+ ------------------------------------------------------------------------------------------------------------------------------
+

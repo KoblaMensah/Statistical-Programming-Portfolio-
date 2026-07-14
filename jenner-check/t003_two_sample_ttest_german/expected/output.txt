@@ -1,0 +1,57 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: stat1.german
+Observations:  24
+Variables:     2
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  change     Num      8          
+  2  group     Char    200          
+
+-------------------------------------------------------------------------------
+
+                           descriptive statistics for 'change' by group(control vs Treatment)
+
+                                                  The MEANS Procedure
+
+                                               Analysis Variable : change
+
+        group              N Obs           Mean         Median        Std Dev      Std Error  Lower Quartile  Upper Quartile
+        --------------------------------------------------------------------------------------------------------------------
+        Control               12           2.00           2.00           0.32           0.09            1.75            2.25
+        Treatment             12           3.65           3.65           0.36           0.10            3.35            3.95
+        --------------------------------------------------------------------------------------------------------------------
+
+                           descriptive statistics for 'change' by group(control vs Treatment)
+
+               The TTEST Procedure                
+                Variable:  change                 
+
+group              N      Mean   Std Dev   Std Err
+----------  --------  --------  --------  --------
+Control           12    2.0000    0.3162    0.0913
+Treatment         12    3.6500    0.3606    0.1041
+Diff (1-2)             -1.6500                    
+
+group       Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+----------  -------------  --------  -------------  ----------------  --------  ----------------
+Control            1.7991    2.0000         2.2009            0.2240    0.3162            0.5369
+Treatment          3.4209    3.6500         3.8791            0.2554    0.3606            0.6122
+Diff (1-2)        -1.9371   -1.6500        -1.3629            0.2623    0.3391            0.4800
+
+Method         Variances        DF   t Value  Pr > |t|
+-------------  ---------  --------  --------  --------
+Pooled         Equal            22    -11.92    <.0001
+Satterthwaite  Unequal        21.6    -11.92    <.0001
+
+   Equality of Variances    
+
+Method     F Value    Pr > F
+--------  --------  --------
+Folded F      1.30    0.6710
+

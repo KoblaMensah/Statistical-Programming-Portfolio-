@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_one_sample_ttest_body_temp",
+  "source_file": "02-one-sample-ttest-body-temperature/code/one_sample_ttest_report.sas",
+  "source_blob_sha": "410834d121014a54691d7140f04569fa0109337c",
+  "source_commit": "d0545c0a51cf4deb116d34e5bf105e31732951f4",
+  "notes": "One-sample PROC TTEST of bodytemp against H0=98.6. Upstream reads stat1.normtemp from an external SAS OnDemand library not in the repo; a 30-row shape-compatible normtemp dataset (bodytemp column) is defined inline in script.sas so the bundle is fully self-contained. PROC steps unchanged."
+}
