@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T06:06:38Z",
+  "_captured_run_id": "r_627da01a7d1846b1a450a7d61f365d4e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: PROC CONTENTS completed: 30 observations, 1 variables",
+    "NOTE: PROC TTEST ODS Graphics generated.",
+    "NOTE: PROC TTEST statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_two_sample_ttest_german",
+  "source_file": "03-two-sample-ttest-german-study/code/two-sample-ttest-german-study.sas",
+  "source_blob_sha": "f21eb42f828be0d25f4b42bce3d91a88d29075aa",
+  "source_commit": "d0545c0a51cf4deb116d34e5bf105e31732951f4",
+  "notes": "Two-sample analysis: PROC MEANS of change by group and a two-sample PROC TTEST (Control vs Treatment) with variance test, CIs, and interval plot. Upstream reads stat1.german from an external SAS OnDemand library; autoexec supplies a 24-row shape-compatible german dataset (group, change). PROC steps unchanged."
+}

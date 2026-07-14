@@ -1,0 +1,33 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: normtemp
+Observations:  30
+Variables:     1
+
+Variables (in alphabetical order):
+
+  #  Variable  Type    Len  Format  Label
+---  --------  ----  -----  ------  -----
+  1  bodytemp   Num      8          
+
+-------------------------------------------------------------------------------
+
+         The TTEST Procedure          
+         Variable:  bodytemp          
+
+       N      Mean   Std Dev   Std Err
+--------  --------  --------  --------
+      30   98.2300    0.3761    0.0687
+
+Lower CL Mean      Mean  Upper CL Mean  Lower CL Std Dev   Std Dev  Upper CL Std Dev
+-------------  --------  -------------  ----------------  --------  ----------------
+      98.0895   98.2300        98.3705            0.2996    0.3761            0.5057
+
+      H0: Mean = 98.6       
+
+      DF   t Value  Pr > |t|
+--------  --------  --------
+      29     -5.39    <.0001
+

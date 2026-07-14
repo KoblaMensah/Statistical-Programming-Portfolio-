@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_fitness_baseline_eda",
+  "source_file": "01-fitness-baseline-eda/code/fitness_baseline_eda.sas",
+  "source_blob_sha": "37bf20cde464f592e4f3fd638dba64ddbd8718db",
+  "source_commit": "d0545c0a51cf4deb116d34e5bf105e31732951f4",
+  "notes": "Baseline EDA: PROC CONTENTS/PRINT/MEANS on WEIGHT plus two PROC UNIVARIATE plots (histogram with normal overlay, normal probability plot) on AGE. Upstream reads statdata.fitness from an external SAS OnDemand library; autoexec supplies a 31-row shape-compatible fitness dataset (age, weight). PROC steps unchanged."
+}
